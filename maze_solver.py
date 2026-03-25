@@ -154,6 +154,10 @@ class Grid:
         """
         return f"Grid.build({self.array})"
 
+class mazeSolver():
+    def __init__(self,x=None,y=None):
+        self.x = x
+        self.y = y
 
 """"
 task1 -> convert document into GridObject
@@ -184,3 +188,5 @@ for example, the recursive function would look like this
 
 
              """
+
+
